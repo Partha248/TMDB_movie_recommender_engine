@@ -36,7 +36,7 @@ def recommender(movie):
 
     return recommended_movies , recommended_movies_posters
 
-similarity = pickle.load(open('similarity_func.pkl','rb'))
+similarity = pickle.load(open('similarity_obj.pkl','rb'))
 
 
 
