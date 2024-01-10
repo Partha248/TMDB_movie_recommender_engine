@@ -19,13 +19,13 @@ This is a simple movie recommendation engine built using the TMDB (The Movie Dat
   - **Open the folder in a code editor like VS Code or PyCharm.**
 
 ### Step 4: Install Required Libraries
-  - **Make sure you have the necessary libraries installed. Run the following command in your cmd terminal:** 
-   **'pip install numpy pandas sklearn nltk pickle streamlit requests'**
+  - **Make sure you have the necessary libraries installed. Run the following command in your cmd terminal :** 
+   **'pip install numpy pandas scikit-learn nltk pickle streamlit requests'**
 
 ### Step 5: Run Jupyter Notebook
   - **Open the .ipynb file in a code editor and update the .csv file path to match the dataset's location on your PC.**
    **This ensures that the file can be read into a pandas dataframe.**
-   **Run the .ipynb file using Jupyter Notebook. It will create two pickle files:**
+   **Run the .ipynb file using Jupyter Notebook. It will create two pickle files :**
    **"movies_df_to_dict.pkl" and "similarity_obj.pkl" in the same folder.**
 
 ### Step 6: Run the Web App
