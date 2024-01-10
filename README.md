@@ -11,13 +11,15 @@
 ### Step 1: Download the Project
    **Download the project by clicking the "Code" button and selecting "Download ZIP" from this repository.**
 ### Step 2: Unzip Files
-   **Unzip the downloaded file. Ensure that dataset,.ipynb and .py files are in the same folder.**
+   **Unzip the downloaded file, then unzip the dataset file inside the unzipped folder. Ensure that the dataset, .ipynb, and .py files are all in the same folder.**
 ### Step 3: Open in Code Editor
    **Open the folder in a code editor like VS Code or PyCharm.**
 ### Step 4: Install Required Libraries
    **Make sure you have the necessary libraries installed. Run the following command in your cmd terminal** 
    **'pip install numpy pandas sklearn nltk pickle streamlit requests'**
 ### Step 5: Run Jupyter Notebook
+   **Open the .ipynb file in a code editor and update the .csv file path to match the dataset's location on your PC.**
+   **This ensures that the file can be read into a pandas dataframe.**
    **Run the .ipynb file using Jupyter Notebook. It will create two pickle files:**
    **"movies_df_to_dict.pkl" and "similarity_obj.pkl" in the same folder.**
 ### Step 6: Run the Web App
